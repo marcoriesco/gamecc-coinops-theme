@@ -113,25 +113,28 @@
         </image>
 
         <!-- Cover do Game -->
-        <image name="md_fanart, md_image">
+        <image name="md_fanart, md_image, cover">
             <origin>1 1</origin>
             <pos>1 1</pos>
             <size>0.5 1</size>
             <zIndex>5</zIndex>
         </image>
+        <image name="cover" extra="true">
+            <path>./assets/cover.jpg</path>
+            <zIndex>5</zIndex>
+        </image>
 
         <!-- Rating Classificação do Game -->
         <rating name="md_rating">
-            <origin>0.5 0</origin>
-            <!-- <pos>0.02 0.065</pos> -->
-            <pos>11 11</pos>
+            <origin>1 1</origin>
+            <pos>0.990 0.97</pos>
             <size>0.05 0.03</size>
-            <rotation>-90</rotation> 
+            <!-- <rotation>-90</rotation>  -->
             <color>FFFFFF</color>
             <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
             <unfilledColor>FFFFFF</unfilledColor>
             <horizontalAlignment>right</horizontalAlignment>  
-            <zIndex>15</zIndex>
+            <zIndex>40</zIndex>
         </rating> 
 
         <!-- Barra Fake -->
