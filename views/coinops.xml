@@ -60,7 +60,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../assets/overr.png</path>
+            <path>./../assets/overlay_down.png</path>
             <zIndex>41</zIndex>
         </image>
 
