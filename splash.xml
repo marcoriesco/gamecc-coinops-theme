@@ -22,9 +22,9 @@
 		</image>
 
 		<text name="label">
-			<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
 			<color>FFFFFF</color>
-			<fontSize>0.023</fontSize>
+			<fontSize>0.030</fontSize>
 		</text>
 		
 		<image name="progressbar:active">

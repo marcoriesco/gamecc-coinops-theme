@@ -15,7 +15,7 @@
             <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
             <logoAlignment>center</logoAlignment>   
             <imageSource>marquee</imageSource>
-            <zIndex>10</zIndex>	      
+            <zIndex>99</zIndex>
         </gamecarousel>
 
         <text name="gamecarouselLogoText">
@@ -109,7 +109,8 @@
             <origin>0 0</origin>
             <pos>0.072 0.0168</pos>
             <size>0.43 0.192</size>
-            <zIndex>36</zIndex>
+            <!-- <zIndex>36</zIndex> -->
+            <zIndex>00</zIndex>
         </image>
 
         <!-- Cover do Game -->
