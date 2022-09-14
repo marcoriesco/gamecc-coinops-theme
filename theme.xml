@@ -323,6 +323,6 @@
     </view>
 
     <include name="system">./views/coinops.xml</include>
-    <include name="gamecarousel" displayName="COINOPS GAMELIST">./coinops-gamelist.xml</include>
+    <include name="gamecarousel">./coinops-gamelist.xml</include>
 
 </theme>
