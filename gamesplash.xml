@@ -7,7 +7,6 @@
             <origin>0 0</origin>
             <size>1 1</size>
             <minSize>1 1</minSize>
-            <roundCorners>0</roundCorners>
             <linearSmooth>true</linearSmooth>
             <color>ffffff</color>
             <colorEnd>404040</colorEnd>
@@ -28,7 +27,7 @@
             <alignment>left</alignment>
             <color>dddddd</color>
             <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-            <fontSize>0.02</fontSize>
+            <fontSize>0.032</fontSize>
             <glowColor>09090920</glowColor>
             <glowSize>1</glowSize>
             <glowOffset>1</glowOffset>

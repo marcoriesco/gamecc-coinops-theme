@@ -4,36 +4,50 @@
   
 	<view name="splash">
 
-		<splash name="splash">
-			<backgroundColor>000000FF</backgroundColor>
-		</splash>
+        <splash name="splash">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <minSize>1 1</minSize>
+            <backgroundColor>333333</backgroundColor>
+        </splash>
 		
 		<image name="background">
-	    	<path>./assets/arts/splash.jpg</path>
+	    	<path>./assets/arts/splash.png</path>
+			<zIndex>1</zIndex>
 		</image>
-				
+
+		<!-- <image name="loader" extra="true">
+			<pos>0.5 0.675</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.15 0.15</size>
+			<path>./assets/favorite.png</path>
+			<rotation>0</rotation>           
+			<zIndex>9</zIndex>
+
+            <storyboard repeatAt="10">
+        		<animation property="rotation" from="0" begin="0" to="360" duration="600" mode="linear"/>
+			</storyboard>
+		</image> -->
+
+		
+		<image name="progressbar, progressbar:active">
+			<visible>true</visible>
+		</image>
+
 		<image name="progressbar">
-			<origin>0 0</origin>
-			<pos>0.103 0.85</pos>
-			<size>0.985 0.065</size>
-			<rotation>72</rotation>
-			<rotationOrigin>1.1 1.6</rotationOrigin>
-			<color>f60915</color>
+			<color>111111</color>
+		</image>
+
+		<image name="progressbar:active">
+			<color>9f005a</color>
 		</image>
 
 		<text name="label">
 			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
 			<color>FFFFFF</color>
-			<fontSize>0.030</fontSize>
+			<fontSize>0.032</fontSize>
 		</text>
-		
-		<image name="progressbar:active">
-			<color>f60915</color>
-			<pos>-0.005 -0.15</pos>
-			<size>0.955 0.065</size>
-			<rotation>-74</rotation>
-			<rotationOrigin>1.1 1.6</rotationOrigin>
-		</image>
 		
 	</view>	
 </theme>
