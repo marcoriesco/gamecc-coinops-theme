@@ -8,29 +8,29 @@
             <size>1 1</size>
             <minSize>1 1</minSize>
             <linearSmooth>true</linearSmooth>
-            <color>ffffff</color>
-            <colorEnd>404040</colorEnd>
+            <color>333333</color>
             <gradientType>vertical</gradientType>
             <zIndex>1</zIndex>
         </image>
 
-        <image name="backgroundalt" extra="true">
+        <!-- <image name="backgroundalt" extra="true">
             <origin>0 0</origin>
             <size>1 1</size>
             <path>./assets/arts/gamesplash.png</path>
             <zIndex>5</zIndex>
-        </image>
+        </image> -->
 
         <text name="loading" extra="true">
             <origin>0 0.5</origin>
             <pos>0.05 0.78</pos>
             <alignment>left</alignment>
-            <color>dddddd</color>
+            <color>FFFFFFFF</color>
+            <glowColor>222222</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>2</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
             <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-            <fontSize>0.032</fontSize>
-            <glowColor>09090920</glowColor>
-            <glowSize>1</glowSize>
-            <glowOffset>1</glowOffset>
+            <fontSize>0.036</fontSize>
             <text>LOADING...</text>
             <text lang="pt">CARREGANDO...</text>
             <text lang="fr">CHARGEMENT...</text>
@@ -43,16 +43,17 @@
             <origin>0 0.5</origin>
             <pos>0.05 0.88</pos>
             <alignment>left</alignment>
-            <color>dddddd</color>
+            <color>9f005a</color>
+            <glowColor>222222</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>2</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
             <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-            <fontSize>0.072</fontSize>
-            <glowColor>09090920</glowColor>
-            <glowSize>1</glowSize>
-            <glowOffset>1</glowOffset>
+            <fontSize>0.052</fontSize>
         </text>
 
         <splash name="splash">
-            <backgroundColor>000000FF</backgroundColor>
+            <backgroundColor>333333</backgroundColor>
         </splash>
 
     </view>

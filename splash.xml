@@ -44,9 +44,13 @@
 		</image>
 
 		<text name="label">
-			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-			<color>FFFFFF</color>
-			<fontSize>0.032</fontSize>
+            <color>FFFFFFFF</color>
+            <glowColor>222222</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>2</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontSize>0.036</fontSize>
 		</text>
 		
 	</view>	
