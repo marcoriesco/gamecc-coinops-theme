@@ -13,6 +13,9 @@
         </splash>
 		
 		<image name="background">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
 	    	<path>./assets/arts/splash.png</path>
 			<zIndex>1</zIndex>
 		</image>
