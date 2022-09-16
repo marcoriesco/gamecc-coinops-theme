@@ -17,33 +17,42 @@
             <origin>0 0</origin>
             <size>1 1</size>
 	    	<path>./assets/arts/splash.png</path>
-			<zIndex>1</zIndex>
+			<zIndex>99</zIndex>
 		</image>
 
-		<!-- <image name="loader" extra="true">
-			<pos>0.5 0.675</pos>
-			<origin>0.5 0.5</origin>
-			<size>0.15 0.15</size>
-			<path>./assets/favorite.png</path>
-			<rotation>0</rotation>           
-			<zIndex>9</zIndex>
+        <!-- <image name="loader" extra="true">
+            <origin>0 0</origin>
+            <pos>0.5 0.5</pos>
+            <size>0.3 0.3</size>
+            <path>./assets/favorite.png</path>
+            <zIndex>20</zIndex>
+            <linearSmooth>true</linearSmooth>
 
-            <storyboard repeatAt="10">
-        		<animation property="rotation" from="0" begin="0" to="360" duration="600" mode="linear"/>
-			</storyboard>
-		</image> -->
-
+            <storyboard repeatAt="forever">
+                <animation
+                    property="rotation"
+                    from="0"
+                    to="360"
+                    begin="0"
+                    duration="300"
+                    mode="easeOut"/>
+            </storyboard>
+        </image> -->
 		
 		<image name="progressbar, progressbar:active">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
 			<visible>true</visible>
+            <zIndex>1</zIndex>
 		</image>
 
 		<image name="progressbar">
-			<color>111111</color>
+			<color>11111100</color>
 		</image>
 
 		<image name="progressbar:active">
-			<color>9f005a</color>
+			<color>9f005a15</color>
 		</image>
 
 		<text name="label">

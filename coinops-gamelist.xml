@@ -31,11 +31,11 @@
         <!-- Arts do sistema - cabs -->
         <image name="art3" extra="true">
             <origin>0 0</origin>
+            <!-- <pos>-0.025 0</pos> -->
             <pos>0 0</pos>
             <size>1 1</size>
             <path>./assets/coinops/default.png</path>
             <path>./assets/coinops/$system.png</path>
-            <!-- <path>Z:\Frontends\RetroBat\roms\arcade\media\cabs\10yard.png</path> -->
             <zIndex>7</zIndex>
         </image>
 
