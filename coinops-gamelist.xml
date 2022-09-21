@@ -24,8 +24,8 @@
             <glowSize>3</glowSize>
             <glowOffset>3</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-            <fontSize>0.030</fontSize>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontSize>0.040</fontSize>
         </text>
 
         <!-- Arts do sistema - cabs -->

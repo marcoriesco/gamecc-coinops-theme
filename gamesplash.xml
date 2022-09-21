@@ -25,7 +25,7 @@
             <pos>0.05 0.78</pos>
             <alignment>left</alignment>
             <color>FFFFFFFF</color>
-            <glowColor>222222</glowColor>
+            <glowColor>00000050</glowColor>
             <glowSize>2</glowSize>
             <glowOffset>2</glowOffset>
             <lineSpacing>1.0</lineSpacing>
@@ -44,12 +44,12 @@
             <pos>0.05 0.88</pos>
             <alignment>left</alignment>
             <color>9f005a</color>
-            <glowColor>222222</glowColor>
+            <glowColor>00000050</glowColor>
             <glowSize>2</glowSize>
             <glowOffset>2</glowOffset>
             <lineSpacing>1.0</lineSpacing>
             <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-            <fontSize>0.052</fontSize>
+            <fontSize>0.048</fontSize>
         </text>
 
         <splash name="splash">
