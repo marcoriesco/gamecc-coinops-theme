@@ -41,14 +41,14 @@
 
         <text name="label">
             <origin>0 0.5</origin>
-            <pos>0.05 0.88</pos>
+            <pos>0.05 0.90</pos>
             <alignment>left</alignment>
             <color>9f005a</color>
             <glowColor>00000050</glowColor>
             <glowSize>2</glowSize>
             <glowOffset>2</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
             <fontSize>0.048</fontSize>
         </text>
 
