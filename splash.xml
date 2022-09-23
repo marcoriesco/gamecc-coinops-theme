@@ -61,8 +61,8 @@
             <glowSize>2</glowSize>
             <glowOffset>2</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-            <fontSize>0.036</fontSize>
+            <fontPath>./_inc/fonts/LEMONMILK-Medium.otf</fontPath>
+            <fontSize>0.042</fontSize>
 		</text>
 		
 	</view>	
