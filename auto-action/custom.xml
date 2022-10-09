@@ -90,10 +90,6 @@
             <text>ENTWICKLER:</text>
         </text>
 
-        <image name="logo, sublogo" ifSubset="systemview:Bello">
-            <path>./assets/logos/genre-action.svg</path>
-        </image>
-
     </view>
 
 </theme>

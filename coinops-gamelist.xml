@@ -78,8 +78,8 @@
             <pos>0.106 0.30</pos>
             <size>0.365 0.48</size>
             <origin>0 0</origin>
-            <delay>0</delay>
-            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <delay>0.4</delay>
+            <default>./assets/video_default.mp4</default>
             <showSnapshotDelay>false</showSnapshotDelay>
             <zIndex>6</zIndex>
         </video>
