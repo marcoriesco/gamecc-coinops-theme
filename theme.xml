@@ -324,5 +324,6 @@
 
     <include name="system">./views/coinops.xml</include>
     <include name="gamecarousel">./coinops-gamelist.xml</include>
+    <include name="coinops-teste">./coinops-gamelist-teste.xml</include>
 
 </theme>
