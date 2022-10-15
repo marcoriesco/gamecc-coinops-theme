@@ -1,0 +1,20 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+    <customView name="coinops-simple">
+			
+		<!-- Video Game Preview -->
+		<video name="md_video">
+			<pos>0.581 0.22</pos>
+			<size>0.256 0.35</size>
+		</video>
+		
+		<!-- Video Game Preview -->
+		<video name="md_video_default" extra="true">
+			<pos>0.528 0.2</pos>
+			<size>0.37 0.38</size>
+		</video>
+
+	</customView>
+
+</theme>

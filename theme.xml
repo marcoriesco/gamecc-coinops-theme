@@ -6,7 +6,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="gamecarousel">
+<theme defaultView="coinops">
     <formatVersion>7</formatVersion>
 
     <include subset="iconset" name="standard icons" displayName="${icondef}">./_inc/iconsets/default.xml</include>
@@ -323,7 +323,12 @@
     </view>
 
     <include name="system">./views/coinops.xml</include>
-    <include name="gamecarousel">./coinops-gamelist.xml</include>
-    <include name="coinops-teste">./coinops-gamelist-teste.xml</include>
+    <include name="gamecarousel">./gamecarousel.xml</include>
+
+    <include name="coinops">./coinops-gamelist.xml</include>
+    <include name="coinops-simple">./coinops-gamelist-simple.xml</include>
+
+    <!-- Specific layout for systems -->
+    <include>./${system.theme}/custom.xml</include>
 
 </theme>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <customView name="gamecarousel" tinyScreen="false">
+        <gamecarousel name="gamecarousel">
+            <type>vertical_wheel</type>
+            <pos>0.35 0</pos>
+            <size>1 1</size>
+            <logoScale>1.5</logoScale>
+            <logoSize>0.1 0.40</logoSize>
+            <color>00000000</color>
+            <maxLogoCount>15</maxLogoCount>
+            <logoRotation>-9</logoRotation>
+            <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+            <logoAlignment>center</logoAlignment>   
+            <imageSource>marquee</imageSource>
+            <zIndex>14</zIndex>
+        </gamecarousel>
+
+        <text name="gamecarouselLogoText">
+            <color>FFFFFFFF</color>
+            <glowColor>00000050</glowColor>
+            <glowSize>3</glowSize>
+            <glowOffset>3</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontSize>0.040</fontSize>
+        </text>
+
+        <!-- Arts do sistema - cabs -->
+        <image name="art3" extra="true">
+            <origin>0 0</origin>
+            <!-- <pos>-0.025 0</pos> -->
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/coinops/default.png</path>
+            <path>./assets/coinops/$system.png</path>
+            <zIndex>7</zIndex>
+        </image>
+
+        <!-- Overlay Video do Game - Tela preta -->
+        <image name="screenbg" extra="true">
+            <color>000000</color>
+            <tile>true</tile>
+            <path>./assets/filter.png</path>
+            <pos>0.106 0.30</pos>
+            <size>0.365 0.48</size>
+            <zIndex>5</zIndex>
+        </image>
+
+        <!-- Overlay Arts do sistema -->
+        <image name="overlay" extra="true">
+            <origin>0 0</origin>
+            <pos>-0.1 0</pos>
+            <size>1.3 1</size>
+            <path>./assets/overlay.png</path>
+            <zIndex>16</zIndex>
+        </image>
+        <image name="overlay_right" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/overlay_right.png</path>
+            <zIndex>13</zIndex>
+        </image>
+
+        <!-- Video Game Preview -->
+        <video name="md_video">
+            <pos>0.106 0.30</pos>
+            <size>0.365 0.48</size>
+            <origin>0 0</origin>
+            <delay>0.4</delay>
+            <default>./assets/video_default.mp4</default>
+            <showSnapshotDelay>false</showSnapshotDelay>
+            <zIndex>6</zIndex>
+        </video>
+
+        <!-- Informações do sistema - Jogando fora porq n pode apagar -->
+        <image name="art" extra="true">
+            <zIndex>5</zIndex>
+            <pos>11 11</pos>
+        </image>
+
+        <image name="art2" extra="true">
+            <zIndex>0</zIndex>
+            <pos>11 11</pos>
+        </image>
+        <!-- não alterar -->
+
+        <!-- Logo do Sistema -->
+        <image name="logo">
+            <origin>0 0</origin>
+            <pos>0.04 0.905</pos>
+            <scale>0.6</scale>
+            <path>./assets/logos/$system.png</path>
+            <zIndex>20</zIndex>
+        </image>
+
+        <!-- Favorito -->
+        <image name="md_favorite, no_favorite">
+            <path>./assets/favorite.png</path>
+            <origin>0 0</origin>
+            <pos>0 0.94</pos>
+            <maxSize>0.05 0.05</maxSize>
+            <zIndex>21</zIndex>
+        </image>
+        <image name="no_favorite" extra="true">
+            <path>./assets/no-favorite.png</path>
+            <zIndex>20</zIndex>
+        </image>
+
+        <!-- Cover do Game -->
+        <image name="md_fanart, md_image, cover">
+            <origin>1 1</origin>
+            <pos>1 1</pos>
+            <size>0.5 1</size>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="cover" extra="true">
+            <path>./assets/cover.jpg</path>
+            <zIndex>5</zIndex>
+        </image>
+
+        <!-- Rating Classificação do Game -->
+        <rating name="md_rating">
+            <origin>1 1</origin>
+            <pos>0.990 0.97</pos>
+            <size>0.05 0.03</size>
+            <color>FFFFFF</color>
+            <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+            <unfilledColor>FFFFFF</unfilledColor>
+            <horizontalAlignment>right</horizontalAlignment>  
+            <zIndex>40</zIndex>
+        </rating> 
+
+        <!-- Barra Fake -->
+        <image name="overbar" extra="true">
+            <origin>1 1</origin>
+            <pos>0.995 0.75</pos>
+            <size>0 0.5</size>
+            <path>./assets/bar.png</path>
+            <zIndex>16</zIndex>
+        </image>
+
+        <!-- Ajuda - botões para usar no Sistema -->
+        <helpsystem name="help">
+            <fontSize>0.001</fontSize>
+            <pos>2 0.955</pos>
+        </helpsystem>
+
+    </customView>
+
+</theme>
