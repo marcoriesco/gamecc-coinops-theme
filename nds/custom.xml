@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+    <customView name="coinops-simple">
+			
+		<!-- Video Game Preview -->
+		<video name="md_video">
+			<pos>0.604 0.154</pos>
+			<size>0.209 0.55</size>
+		</video>
+		
+		<!-- Video Game Preview -->
+		<video name="md_video_default" extra="true">
+			<pos>0.604 0.154</pos>
+			<size>0.209 0.278</size>
+		</video>
+
+		<!-- Video Extra Nintendo WiiU pequeno -->
+		<image name="md_thumbnail">
+			<pos>0.6 0.565</pos>
+			<size>0.215 0.562</size>
+			<origin>0 0</origin>
+            <!-- <path>./assets/video_default.mp4</path> -->
+            <!-- <path>~/../roms/$system/medium_artwork/video/$md_name.mp4</path> -->
+            <!-- <showSnapshotDelay>false</showSnapshotDelay> -->
+            <!-- <delay>0.4</delay> -->
+            <zIndex>6</zIndex>
+		</image>
+
+	</customView>
+
+</theme>
