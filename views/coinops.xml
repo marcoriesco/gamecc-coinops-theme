@@ -8,8 +8,10 @@
             <pos>0.10 0.700</pos>
             <size>0.8 1</size>
             <logoScale>1</logoScale>
-            <logoSize>0.200 0.200</logoSize>
-            <logoPos>0.300 0</logoPos>
+            <!-- <logoSize>0.200 0.200</logoSize> -->
+            <logoSize>0.307291667 0.236111</logoSize>
+            <logoAlignment>center</logoAlignment>
+            <logoPos>0.248 0</logoPos>
             <color>00000000</color>
             <maxLogoCount>3</maxLogoCount>
             <zIndex>45</zIndex>
