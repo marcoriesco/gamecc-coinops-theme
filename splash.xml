@@ -19,25 +19,6 @@
 	    	<path>./assets/arts/splash.png</path>
 			<zIndex>99</zIndex>
 		</image>
-
-        <!-- <image name="loader" extra="true">
-            <origin>0 0</origin>
-            <pos>0.5 0.5</pos>
-            <size>0.3 0.3</size>
-            <path>./assets/favorite.png</path>
-            <zIndex>20</zIndex>
-            <linearSmooth>true</linearSmooth>
-
-            <storyboard repeatAt="forever">
-                <animation
-                    property="rotation"
-                    from="0"
-                    to="360"
-                    begin="0"
-                    duration="300"
-                    mode="easeOut"/>
-            </storyboard>
-        </image> -->
 		
 		<image name="progressbar, progressbar:active">
             <origin>0 0</origin>
