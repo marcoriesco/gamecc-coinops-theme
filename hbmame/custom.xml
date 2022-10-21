@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+    <customView name="coinops">
+			
+        <!-- Marquee do Game -->
+        <text name="md_name">
+            <origin>1 1</origin>
+            <pos>0.915 0.9725</pos>
+            <size>0.4 0</size>
+            <fontPath>./_inc/fonts/Roboto-Medium.otf</fontPath>
+            <fontSize>0.022</fontSize>
+            <color>FFFFFF</color>
+            <alignment>right</alignment>
+            <forceUppercase>true</forceUppercase>
+            <zIndex>20</zIndex>
+        </text>
+
+	</customView>
+
+</theme>
