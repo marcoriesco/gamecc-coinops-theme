@@ -9,7 +9,6 @@
 			<size>0.256 0.35</size>
 		</video>
 		
-		<!-- Video Game Preview -->
 		<video name="md_video_default" extra="true">
 			<pos>0.528 0.2</pos>
 			<size>0.37 0.38</size>

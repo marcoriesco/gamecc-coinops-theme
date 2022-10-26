@@ -71,6 +71,7 @@
             <origin>0 0</origin>
             <delay>0.4</delay>
             <showSnapshotDelay>false</showSnapshotDelay>
+            <effect>none</effect>
             <zIndex>6</zIndex>
         </video>
         <!-- Video Game Preview -->
@@ -79,8 +80,9 @@
             <size>0.21 0.27</size>
             <origin>0 0</origin>
             <delay>0.4</delay>
-            <path>./assets/video_default.mp4</path>
+            <path>./assets/videos/video_default.mp4</path>
             <showSnapshotDelay>false</showSnapshotDelay>
+            <effect>none</effect>
             <zIndex>5</zIndex>
         </video>
 

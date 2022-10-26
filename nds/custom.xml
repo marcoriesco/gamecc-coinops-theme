@@ -20,7 +20,7 @@
 			<pos>0.6 0.565</pos>
 			<size>0.215 0.562</size>
 			<origin>0 0</origin>
-            <!-- <path>./assets/video_default.mp4</path> -->
+            <!-- <path>./assets/videos/video_default.mp4</path> -->
             <!-- <path>~/../roms/$system/medium_artwork/video/$md_name.mp4</path> -->
             <!-- <showSnapshotDelay>false</showSnapshotDelay> -->
             <!-- <delay>0.4</delay> -->

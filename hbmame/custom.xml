@@ -3,7 +3,7 @@
 
     <customView name="coinops">
 			
-        <!-- Marquee do Game -->
+        <!-- Nome dos Games -->
         <text name="md_name">
             <origin>1 1</origin>
             <pos>0.915 0.9725</pos>
@@ -17,5 +17,40 @@
         </text>
 
 	</customView>
+    
+    <customView name="coinops-simple">
+			
+        <!-- Arcade Background Vídeo -->
+        <video name="md_video_background" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/videos/arcade.mp4</path>
+            <showSnapshotDelay>false</showSnapshotDelay>
+            <delay>0</delay>
+            <effect>none</effect>
+            <zIndex>4</zIndex>
+        </video>
 
+        <!-- Video Game Preview -->
+        <video name="md_video, md_video_default, screenbg">
+            <pos>0.356 0.32</pos>
+            <size>0.284 0.35</size>
+        </video>
+
+        <!-- Nome dos Games -->
+        <text name="md_name">
+            <origin>1 1</origin>
+            <pos>0.999 0.9725</pos>
+            <size>1 0</size>
+            <fontPath>./_inc/fonts/Roboto-Medium.otf</fontPath>
+            <fontSize>0.022</fontSize>
+            <color>FFFFFF</color>
+            <alignment>center</alignment>
+            <forceUppercase>true</forceUppercase>
+            <zIndex>20</zIndex>
+        </text>
+
+	</customView>
+    
 </theme>
