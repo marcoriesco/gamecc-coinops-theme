@@ -37,6 +37,13 @@
             <path>./assets/coinops_simple/default.png</path>
             <path>./assets/coinops_simple/$system.png</path>
             <zIndex>7</zIndex>
+
+            <!-- <storyboard>
+                <animation property="scale" from="1.3" to="1" begin="0" duration="600" mode="linear" />
+                <animation property="x" from="-0.15" to="0" begin="0" duration="600" mode="linear" />
+                <animation property="opacity" from="0.3" to="1" begin="0" duration="600" mode="linear" />
+            </storyboard> -->
+
         </image>
 
         <!-- Marquee do Game -->
