@@ -73,8 +73,8 @@
 
         <!-- Video Game Preview -->
         <video name="md_video">
-            <pos>0.5922 0.285</pos>
-            <size>0.21 0.27</size>
+            <pos>0.652 0.365</pos>
+            <size>0.092 0.122</size>
             <origin>0 0</origin>
             <delay>0.4</delay>
             <showSnapshotDelay>false</showSnapshotDelay>
@@ -83,8 +83,8 @@
         </video>
         <!-- Video Game Preview -->
         <video name="md_video_default" extra="true">
-            <pos>0.5922 0.285</pos>
-            <size>0.21 0.27</size>
+            <pos>0.652 0.365</pos>
+            <size>0.092 0.122</size>
             <origin>0 0</origin>
             <delay>0.4</delay>
             <path>./assets/videos/video_default.mp4</path>
