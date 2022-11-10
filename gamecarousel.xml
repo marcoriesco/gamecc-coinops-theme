@@ -13,7 +13,7 @@
             <maxLogoCount>15</maxLogoCount>
             <logoRotation>-9</logoRotation>
             <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
-            <logoAlignment>center</logoAlignment>   
+            <logoAlignment>center</logoAlignment>
             <imageSource>marquee</imageSource>
             <zIndex>14</zIndex>
         </gamecarousel>
@@ -130,9 +130,9 @@
             <color>FFFFFF</color>
             <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
             <unfilledColor>FFFFFF</unfilledColor>
-            <horizontalAlignment>right</horizontalAlignment>  
+            <horizontalAlignment>right</horizontalAlignment>
             <zIndex>40</zIndex>
-        </rating> 
+        </rating>
 
         <!-- Barra Fake -->
         <image name="overbar" extra="true">

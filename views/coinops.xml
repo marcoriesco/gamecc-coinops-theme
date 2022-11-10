@@ -18,33 +18,29 @@
             <defaultTransition>instant</defaultTransition>
         </carousel>
 
+        <text name="logoText">
+            <color>FFFFFFFF</color>
+            <glowColor>00000050</glowColor>
+            <glowSize>3</glowSize>
+            <glowOffset>3</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontSize>0.072</fontSize>
+        </text>
+
         <image name="logo">
+            <path>./../assets/logos/$system.png</path>
             <linearSmooth>true</linearSmooth>
+
             <storyboard event="activate" repeatAt="1">
                 <animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
-                <animation
-                    property="scale"
-                    from="0.70"
-                    to="1.10"
-                    begin="0"
-                    duration="0"
-                    mode="linear"/>
+                <animation property="scale" from="0.70" to="1.10" begin="0" duration="0" mode="linear"/>
             </storyboard>
 
             <storyboard event="scroll">
                 <animation property="opacity" from="0" to="0.4" duration="0" mode="Linear"/>
-                <animation
-                    property="scale"
-                    from="1.10"
-                    to="0.70"
-                    begin="0"
-                    duration="0"
-                    mode="easeOut"/>
+                <animation property="scale" from="1.10" to="0.70" begin="0" duration="0" mode="easeOut"/>
             </storyboard>
-        </image>
-
-        <image name="logo">
-            <path>./../assets/logos/$system.png</path>
         </image>
 
         <image name="art" extra="true">
@@ -113,14 +109,7 @@
             <glowSize>1</glowSize>
             <zIndex>42</zIndex>
             <storyboard>
-                <animation
-                    property="offsetX"
-                    from="-2"
-                    to="0"
-                    begin=""
-                    duration="900"
-                    mode="Linear"
-                    autoReverse="false"/>
+                <animation property="offsetX" from="-2" to="0" begin="" duration="900" mode="Linear" autoReverse="false"/>
             </storyboard>
         </text>
         <text name="info3, info4, info5" extra="true">

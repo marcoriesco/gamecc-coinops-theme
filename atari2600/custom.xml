@@ -1,14 +1,14 @@
 <theme>
-	<formatVersion>7</formatVersion>
+    <formatVersion>7</formatVersion>
 
     <customView name="coinops-simple">
-			
+
         <!-- Video Game Preview -->
         <video name="md_video, md_video_default, screenbg">
             <pos>0.5922 0.285</pos>
             <size>0.21 0.27</size>
         </video>
 
-	</customView>
+    </customView>
 
 </theme>
