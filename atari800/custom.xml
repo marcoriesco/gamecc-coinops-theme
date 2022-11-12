@@ -1,19 +1,7 @@
 <theme>
     <formatVersion>7</formatVersion>
 
-    <customView name="coinops">
-
-        <text name="logoText">
-            <color>F17A18</color>
-        </text>
-
-    </customView>
-
     <customView name="coinops-simple" inherits="gamecarousel">
-
-        <text name="gamecarouselLogoText">
-            <color>F17A18</color>
-        </text>
 
         <!-- Video Game Preview -->
         <video name="md_video, md_video_default, screenbg">
