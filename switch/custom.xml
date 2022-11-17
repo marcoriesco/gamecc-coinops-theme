@@ -11,10 +11,11 @@
 
 		<!-- Video Extra Nintendo WiiU pequeno -->
 		<image name="md_thumbnail">
-			<pos>0.596 0.5465</pos>
-			<size>0.223 0.3</size>
+			<pos>0.74 0.71</pos>
+			<size>0.17 0.17</size>
 			<origin>0 0</origin>
-			<zIndex>16</zIndex>
+			<rotation>-12.6</rotation>
+			<zIndex>6</zIndex>
 		</image>
 
 	</customView>
