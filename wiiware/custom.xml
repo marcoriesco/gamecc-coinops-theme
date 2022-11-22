@@ -1,14 +1,14 @@
 <theme>
 	<formatVersion>7</formatVersion>
 
-    <customView name="coinops-simple">
-			
+	<customView name="gamecc-simple">
+
 		<!-- Video Game Preview -->
 		<video name="md_video">
 			<pos>0.518 0.21</pos>
 			<size>0.4 0.398</size>
 		</video>
-		
+
 		<!-- Video Game Preview -->
 		<video name="md_video_default" extra="true">
 			<pos>0.518 0.21</pos>
@@ -22,11 +22,11 @@
 			<size>0.122 0.12</size>
 			<origin>0 0</origin>
 			<rotation>5</rotation>
-            <!-- <path>./assets/videos/video_default.mp4</path> -->
-            <!-- <path>~/../roms/$system/medium_artwork/video/$md_name.mp4</path> -->
-            <!-- <showSnapshotDelay>false</showSnapshotDelay> -->
-            <!-- <delay>0.4</delay> -->
-            <zIndex>6</zIndex>
+			<!-- <path>./assets/videos/video_default.mp4</path> -->
+			<!-- <path>~/../roms/$system/medium_artwork/video/$md_name.mp4</path> -->
+			<!-- <showSnapshotDelay>false</showSnapshotDelay> -->
+			<!-- <delay>0.4</delay> -->
+			<zIndex>6</zIndex>
 		</image>
 
 	</customView>

@@ -1,8 +1,8 @@
 <theme>
-	<formatVersion>7</formatVersion>
+    <formatVersion>7</formatVersion>
 
-    <customView name="coinops-simple">
-			
+    <customView name="gamecc-simple">
+
         <!-- Arcade Background Vídeo -->
         <video name="md_video_background" extra="true">
             <origin>0 0</origin>
@@ -21,6 +21,6 @@
             <size>0.284 0.35</size>
         </video>
 
-	</customView>
+    </customView>
 
 </theme>

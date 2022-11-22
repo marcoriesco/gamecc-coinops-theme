@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>7</formatVersion>
 
-    <customView name="coinops-simple" inherits="gamecarousel">
+    <customView name="gamecc-simple" inherits="gamecarousel">
 
         <!-- Video Game Preview -->
         <video name="md_video, md_video_default, screenbg">

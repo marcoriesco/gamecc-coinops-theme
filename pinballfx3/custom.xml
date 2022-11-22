@@ -1,8 +1,8 @@
 <theme>
-	<formatVersion>7</formatVersion>
+    <formatVersion>7</formatVersion>
 
-    <customView name="coinops">
-			
+    <customView name="gamecc">
+
         <!-- Marquee do Game -->
         <image name="md_thumbnail">
             <origin>0 0</origin>
@@ -11,10 +11,10 @@
             <zIndex>7</zIndex>
         </image>
 
-	</customView>
-    
-    <customView name="coinops-simple">
-			
+    </customView>
+
+    <customView name="gamecc-simple">
+
         <!-- Arcade Background Vídeo -->
         <video name="md_video_background" extra="true">
             <origin>0 0</origin>
@@ -33,6 +33,6 @@
             <size>0.33 0.36</size>
         </video>
 
-	</customView>
+    </customView>
 
 </theme>

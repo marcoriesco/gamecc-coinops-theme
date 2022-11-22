@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>7</formatVersion>
 
-    <customView name="coinops-simple">
+    <customView name="gamecc-simple">
 
         <!-- Video Game Preview -->
         <video name="md_video, md_video_default">

@@ -1,8 +1,8 @@
 <theme>
-	<formatVersion>7</formatVersion>
+    <formatVersion>7</formatVersion>
 
-    <customView name="coinops">
-			
+    <customView name="gamecc">
+
         <!-- Nome dos Games -->
         <text name="md_name">
             <origin>1 1</origin>
@@ -16,10 +16,10 @@
             <zIndex>20</zIndex>
         </text>
 
-	</customView>
-    
-    <customView name="coinops-simple">
-			
+    </customView>
+
+    <customView name="gamecc-simple">
+
         <!-- Arcade Background Vídeo -->
         <video name="md_video_background" extra="true">
             <origin>0 0</origin>
@@ -51,6 +51,6 @@
             <zIndex>20</zIndex>
         </text>
 
-	</customView>
-    
+    </customView>
+
 </theme>
