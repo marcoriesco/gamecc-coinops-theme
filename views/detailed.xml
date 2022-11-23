@@ -4,15 +4,18 @@
 
     <view name="detailed">
         <textlist name="gamelist">
-            <pos>0.61 0.17</pos>
-            <size>0.34 0.59</size>
+            <pos>0.6 0.15</pos>
+            <size>0.34 0.69</size>
             <selectorColor>ffffff00</selectorColor>
-            <selectedColor>9f005a</selectedColor>
+            <selectedColor>facc00</selectedColor>
             <primaryColor>ffffff</primaryColor>
             <secondaryColor>ffffff</secondaryColor>
+            <glowColor>00000050</glowColor>
+            <glowSize>3</glowSize>
+            <glowOffset>3</glowOffset>
+            <lineSpacing>1.5</lineSpacing>
             <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
-            <fontSize>0.020</fontSize>
-            <lineSpacing>1.975</lineSpacing>
+            <fontSize>0.032</fontSize>
             <forceUppercase>1</forceUppercase>
             <alignment>right</alignment>
             <zIndex>15</zIndex>
@@ -29,6 +32,14 @@
             <path>./assets/cover.jpg</path>
             <zIndex>5</zIndex>
         </image>
+        <image name="cover2" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>0.5 1</size>
+            <path>./assets/cover.jpg</path>
+            <zIndex>5</zIndex>
+        </image>
+
 
         <!-- Logo do Sistema -->
         <image name="logo">
@@ -39,105 +50,42 @@
             <zIndex>20</zIndex>
         </image>
 
-        <image name="in-game-layer" extra="true">
+        <!-- Overlay Arts do sistema -->
+        <image name="overlay" extra="true">
+            <origin>0 0</origin>
+            <pos>-0.1 0</pos>
+            <size>1.3 1</size>
+            <path>./assets/overlay.png</path>
+            <zIndex>16</zIndex>
+        </image>
+        <image name="overlay_right" extra="true">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./assets/overbar.png</path>
+            <path>./assets/overlay_right.png</path>
+            <zIndex>13</zIndex>
         </image>
-
-        <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players">
-            <color>FFFFFF</color>
-            <fontPath>./_inc/fonts/texgyre.otf</fontPath>
-            <fontSize>0.018</fontSize>
-        </text>
-        <text name="md_developer, md_publisher, md_genre, md_playcount, md_lastplayed, md_players, md_releasedate">
-            <color>E8A500</color>
-            <fontPath>./_inc/fonts/texgyre.otf</fontPath>
-            <fontSize>0.018</fontSize>
-        </text>
-        <text name="md_description">
-            <pos>0.045 0.85</pos>
-            <size>0.458 0.113</size>
-            <fontSize>0.020</fontSize>
-            <color>FFFFFF</color>
-            <alignment>left</alignment>
-            <fontPath>./_inc/fonts/texgyre.otf</fontPath>
-        </text>
-        <rating name="md_rating">
-            <pos>0.88 0.85</pos>
-            <size>0.05 0.03</size>
-            <filledPath>./_inc/images/star_filled.svg</filledPath>
-            <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
-        </rating>
-
-        <text name="md_lbl_releasedate">
-            <forceUppercase>1</forceUppercase>
-            <pos>0.55 0.85</pos>
-            <size>0.15 0.018</size>
-        </text>
-        <datetime name="md_releasedate">
-            <pos>0.65 0.85</pos>
-            <size>0.15 0.018</size>
-            <alignment>left</alignment>
-        </datetime>
-
-        <text name="md_lbl_players">
-            <forceUppercase>1</forceUppercase>
-            <pos>0.55 0.885</pos>
-            <size>0.15 0.018</size>
-        </text>
-        <text name="md_players">
-            <pos>0.65 0.885</pos>
-            <size>0.15 0.018</size>
-        </text>
-
-        <text name="md_lbl_genre">
-            <forceUppercase>1</forceUppercase>
-            <pos>0.55 0.915</pos>
-            <size>0.15 0.018</size>
-        </text>
-        <text name="md_genre">
-            <pos>0.65 0.915</pos>
-            <size>0.17 0.018</size>
-        </text>
-        <text name="md_lbl_developer">
-            <forceUppercase>1</forceUppercase>
-            <pos>0.55 0.945</pos>
-            <size>0.15 0.018</size>
-        </text>
-        <text name="md_developer">
-            <pos>0.65 0.945</pos>
-            <size>0.17 0.018</size>
-        </text>
-
-        <text name="md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_playcount, md_lbl_rating, md_lbl_publisher, md_publisher, md_lastplayed">
-            <pos>2 2</pos>
-            <size>0 0</size>
-            <fontSize>0.0</fontSize>
-            <zIndex>0</zIndex>
-        </text>
 
         <!-- Ajuda - botões para usar no Sistema -->
         <helpsystem name="help">
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.960</pos>
-            <fontPath>./../assets/Roboto-Medium.ttf</fontPath>
-            <fontSize>0.020</fontSize>
-            <textColor>FFFFFF</textColor>
+            <fontSize>0.001</fontSize>
+            <pos>2 0.955</pos>
         </helpsystem>
 
-        <image name="md_image">
-            <pos>0.106 0.22</pos>
-            <size>0.365 0.48</size>
+        <!-- Video Game Preview -->
+        <video name="md_video, md_video_default">
+            <pos>0.01 0.02</pos>
+            <size>0.48</size>
             <origin>0 0</origin>
-            <zIndex>8</zIndex>
-        </image>
-        <video name="md_video">
-            <pos>0.106 0.22</pos>
-            <size>0.365 0.48</size>
-            <origin>0 0</origin>
-            <zIndex>8</zIndex>
+            <delay>0.4</delay>
+            <showSnapshotDelay>false</showSnapshotDelay>
+            <effect>none</effect>
+            <zIndex>6</zIndex>
+        </video>
+        <!-- Video Game Preview -->
+        <video name="md_video_default" extra="true">
+            <path>./assets/videos/video_default.mp4</path>
+            <zIndex>5</zIndex>
         </video>
 
         <!-- Favorito -->
@@ -152,6 +100,105 @@
             <path>./assets/no-favorite.png</path>
             <zIndex>20</zIndex>
         </image>
+
+        <!-- Rating Classificação do Game -->
+        <rating name="md_rating">
+            <origin>1 1</origin>
+            <pos>0.990 0.97</pos>
+            <size>0.05 0.03</size>
+            <color>FFFFFF</color>
+            <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+            <unfilledColor>FFFFFF</unfilledColor>
+            <horizontalAlignment>right</horizontalAlignment>
+            <zIndex>40</zIndex>
+        </rating>
+
+        <!-- Barra Fake -->
+        <image name="overbar" extra="true">
+            <origin>1 1</origin>
+            <pos>0.995 0.75</pos>
+            <size>0 0.5</size>
+            <path>./assets/bar.png</path>
+            <zIndex>16</zIndex>
+        </image>
+
+        <!-- Descrições detalhadas -->
+        <text name="description_backg" extra="true">
+            <pos>0.01 0.52</pos>
+            <size>0.48 0.40</size>
+            <origin>0 0</origin>
+            <backgroundColor>00000080</backgroundColor>
+            <zIndex>6</zIndex>
+        </text>
+
+        <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players">
+            <color>FFFFFF</color>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontSize>0.020</fontSize>
+        </text>
+        <text name="md_developer, md_publisher, md_genre, md_playcount, md_lastplayed, md_players, md_releasedate">
+            <color>facc00</color>
+            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontSize>0.020</fontSize>
+        </text>
+        <text name="md_description">
+            <origin>0 0</origin>
+            <pos>0.025 0.71</pos>
+            <size>0.455 0.18</size>
+            <fontSize>0.020</fontSize>
+            <color>FFFFFF</color>
+            <alignment>left</alignment>
+            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+        </text>
+
+        <text name="md_lbl_releasedate">
+            <pos>0.025 0.55</pos>
+            <size>0.15 0.018</size>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <datetime name="md_releasedate">
+            <pos>0.16 0.55</pos>
+            <size>0.15 0.018</size>
+            <alignment>left</alignment>
+        </datetime>
+
+        <text name="md_lbl_players">
+            <pos>0.025 0.585</pos>
+            <size>0.15 0.018</size>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="md_players">
+            <pos>0.16 0.585</pos>
+            <size>0.15 0.018</size>
+        </text>
+
+        <text name="md_lbl_genre">
+            <pos>0.025 0.620</pos>
+            <size>0.15 0.018</size>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="md_genre">
+            <pos>0.16 0.620</pos>
+            <size>0.17 0.018</size>
+        </text>
+
+        <text name="md_lbl_developer">
+            <pos>0.025 0.655</pos>
+            <size>0.15 0.018</size>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="md_developer">
+            <pos>0.16 0.655</pos>
+            <size>0.17 0.018</size>
+        </text>
+
+        <text name="md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_playcount, md_lbl_rating, md_lbl_publisher, md_publisher, md_lastplayed">
+            <pos>11 11</pos>
+            <size>0 0</size>
+            <fontSize>0.0</fontSize>
+            <zIndex>0</zIndex>
+        </text>
+
     </view>
 
 </theme>

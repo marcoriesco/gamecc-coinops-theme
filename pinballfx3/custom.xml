@@ -4,7 +4,7 @@
     <customView name="gamecc">
 
         <!-- Marquee do Game -->
-        <image name="md_thumbnail">
+        <image name="md_boxart">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
