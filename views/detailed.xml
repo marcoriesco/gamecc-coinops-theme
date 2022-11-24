@@ -73,7 +73,7 @@
         </helpsystem>
 
         <!-- Video Game Preview -->
-        <video name="md_video, md_video_default">
+        <video name="md_video">
             <pos>0.01 0.02</pos>
             <size>0.48</size>
             <origin>0 0</origin>

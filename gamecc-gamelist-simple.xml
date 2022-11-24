@@ -61,12 +61,14 @@
             <size>0.092 0.122</size>
             <origin>0 0</origin>
             <delay>0.4</delay>
-            <showSnapshotDelay>false</showSnapshotDelay>
             <effect>none</effect>
+            <default>./assets/videos/video_default.mp4</default>
+            <snapshotSource>thumbnail</snapshotSource>
+            <showSnapshotDelay>true</showSnapshotDelay>
             <zIndex>6</zIndex>
         </video>
         <!-- Video Game Preview -->
-        <video name="md_video_default" extra="true">
+        <!-- <video name="md_video_default" extra="true">
             <pos>0.652 0.365</pos>
             <size>0.092 0.122</size>
             <origin>0 0</origin>
@@ -75,7 +77,7 @@
             <showSnapshotDelay>false</showSnapshotDelay>
             <effect>none</effect>
             <zIndex>5</zIndex>
-        </video>
+        </video> -->
 
         <!-- Informações do sistema - Jogando fora porq n pode apagar -->
         <image name="art" extra="true">

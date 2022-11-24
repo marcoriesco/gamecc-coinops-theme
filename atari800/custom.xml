@@ -4,7 +4,7 @@
     <customView name="gamecc-simple" inherits="gamecarousel">
 
         <!-- Video Game Preview -->
-        <video name="md_video, md_video_default, screenbg">
+        <video name="md_video, screenbg">
             <pos>0.58 0.25</pos>
             <size>0.225 0.294</size>
         </video>

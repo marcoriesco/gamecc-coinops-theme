@@ -1,0 +1,14 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <customView name="gamecc-simple">
+
+        <!-- Video Game Preview -->
+        <video name="md_video, screenbg">
+            <pos>0.567 0.288</pos>
+            <size>0.216 0.289</size>
+        </video>
+
+    </customView>
+
+</theme>

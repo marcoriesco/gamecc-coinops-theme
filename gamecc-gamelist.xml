@@ -72,7 +72,8 @@
             <origin>0 0</origin>
             <delay>0.4</delay>
             <default>./assets/videos/video_default.mp4</default>
-            <showSnapshotDelay>false</showSnapshotDelay>
+            <snapshotSource>thumbnail</snapshotSource>
+            <showSnapshotDelay>true</showSnapshotDelay>
             <zIndex>6</zIndex>
         </video>
 

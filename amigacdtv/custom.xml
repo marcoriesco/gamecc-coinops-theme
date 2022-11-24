@@ -4,7 +4,7 @@
     <customView name="gamecc-simple">
 
         <!-- Video Game Preview -->
-        <video name="md_video, md_video_default">
+        <video name="md_video">
             <pos>0.598 0.215</pos>
             <size>0.195 0.265</size>
         </video>
