@@ -49,8 +49,8 @@
             <fontSize>0.029</fontSize>
             <color>868686</color>
             <separatorColor>191919</separatorColor>
-            <selectorColor>9f005a</selectorColor>
-            <selectorColorEnd>9f005a</selectorColorEnd>
+            <selectorColor>9f0043</selectorColor>
+            <selectorColorEnd>9f0043</selectorColorEnd>
             <selectedColor>FFFFFF</selectedColor>
             <selectorGradientType>horizontal</selectorGradientType>
         </menuText>
