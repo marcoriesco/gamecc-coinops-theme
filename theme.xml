@@ -23,8 +23,8 @@
     <include subset="iconset" name="Xbox One">./_inc/iconsets/xboxone.xml</include>
     <include subset="iconset" name="Switch">./_inc/iconsets/switch.xml</include>
 
-    <include subset="music" name="Mute" displayName="${silence}">./views/options/nosounds.xml</include>
-    <include subset="music" name="On" displayName="${sysmusic}">./views/options/sounds.xml</include>
+    <include subset="music" name="Mute" displayName="${silence}">./_views/options/nosounds.xml</include>
+    <include subset="music" name="On" displayName="${sysmusic}">./_views/options/sounds.xml</include>
     <include subset="music" name="Off" displayName="${nomusic}"/>
 
     <feature supported="carousel">
@@ -33,16 +33,16 @@
         </view>
     </feature>
 
-    <include name="system">./views/gamecc.xml</include>
+    <include name="system">./_views/gamecc.xml</include>
 
-    <include name="menu">./views/menu.xml</include>
-    <include name="basic">./views/basic.xml</include>
-    <include name="detailed">./views/detailed.xml</include>
-    <include name="grid">./views/grid.xml</include>
-    <include name="gamecarousel">./views/gamecarousel.xml</include>
+    <include name="menu">./_views/menu.xml</include>
+    <include name="basic">./_views/basic.xml</include>
+    <include name="detailed">./_views/detailed.xml</include>
+    <include name="grid">./_views/grid.xml</include>
+    <include name="gamecarousel">./_views/gamecarousel.xml</include>
 
-    <include name="gamecc">./views/gamecc-gamelist.xml</include>
-    <include name="gamecc-simple">./views/gamecc-gamelist-simple.xml</include>
+    <include name="gamecc">./_views/gamecc-gamelist.xml</include>
+    <include name="gamecc-simple">./_views/gamecc-gamelist-simple.xml</include>
 
     <!-- Specific layout for systems -->
     <include>./${system.theme}/custom.xml</include>
