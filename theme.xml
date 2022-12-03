@@ -33,6 +33,11 @@
         </view>
     </feature>
 
+    <variables>
+        <pinkColor>9f0043</pinkColor>
+        <yellowColor>facc00</yellowColor>
+    </variables>
+
     <include name="system">./_views/gamecc.xml</include>
 
     <include name="menu">./_views/menu.xml</include>
@@ -43,6 +48,7 @@
 
     <include name="gamecc">./_views/gamecc-gamelist.xml</include>
     <include name="gamecc-simple">./_views/gamecc-gamelist-simple.xml</include>
+    <include name="gamecarousel">./_views/gamecc-gamelist-cart.xml</include>
 
     <!-- Specific layout for systems -->
     <include>./${system.theme}/custom.xml</include>
