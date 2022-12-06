@@ -9,8 +9,6 @@
             <pos>0 1.06</pos>
             <pos if="${screen.width} > 1920">0 1</pos>
             <size>1.6 0.5</size>
-            <!-- <pos>-0.595 0.5</pos>
-            <size>1.6 0.55</size> -->
             <backgroundColor>333333</backgroundColor>
             <logoScale>1.7</logoScale>
             <logoSize>0.045 0.5</logoSize>
@@ -33,23 +31,27 @@
         </text>
 
         <!-- Overlay -->
-        <image name="overlay" extra="true">
+        <image name="overlay, overlay2" extra="true">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
             <path>./../assets/overlay_down.png</path>
             <zIndex>15</zIndex>
         </image>
+        <image name="overlay2" extra="true">
+            <path>./../assets/overlay_down.png</path>
+        </image>
 
-        <!-- Video Game Preview -->
-        <!-- Video Overlay -->
-        <!-- <text name="description_backg" extra="true">
+        <!-- Overlay -->
+        <image name="background_fix" extra="true">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <backgroundColor>00000090</backgroundColor>
-            <zIndex>16</zIndex>
-        </text> -->
+            <path>./../assets/default.jpg</path>
+            <zIndex>1</zIndex>
+        </image>
+
+        <!-- Video Game Preview -->
         <video name="md_video">
             <origin>0 0</origin>
             <pos>0 0</pos>
@@ -107,8 +109,10 @@
         <image name="md_favorite, no_favorite">
             <origin>1 1</origin>
             <pos>0.99 0.09</pos>
+            <pos if="${screen.width} > 1920">0.982 0.09</pos>
             <path>./assets/favorite.png</path>
             <size>0.032 </size>
+            <size if="${screen.width} > 1920">0.025 </size>
             <zIndex>21</zIndex>
         </image>
         <image name="no_favorite" extra="true">
