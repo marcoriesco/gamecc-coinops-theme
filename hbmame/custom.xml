@@ -1,63 +1,44 @@
 <theme>
     <formatVersion>7</formatVersion>
 
-    <customView name="gamecc">
+    <customView name="gamecc-cart">
 
-        <!-- Marquee do Game -->
+        <!-- Fullcabinets -->
         <image name="md_boxart">
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
-            <zIndex>7</zIndex>
+            <origin>0.5 0</origin>
+            <pos>0.5 0</pos>
+            <size>0 0</size>
+            <scale>1.5</scale>
+            <zIndex>22</zIndex>
         </image>
 
-        <!-- Nome dos Games -->
-        <text name="md_name">
-            <origin>1 1</origin>
-            <pos>0.915 0.9725</pos>
-            <size>0.4 0</size>
-            <fontPath>./_inc/fonts/Roboto-Medium.otf</fontPath>
-            <fontSize>0.022</fontSize>
-            <color>FFFFFF</color>
-            <alignment>right</alignment>
-            <forceUppercase>true</forceUppercase>
-            <zIndex>20</zIndex>
-        </text>
+        <!-- Marquee -->
+        <image name="md_boxback">
+            <origin>0.5 0</origin>
+            <pos>0.5 0.08</pos>
+            <size>0.235 0.16</size>
+            <zIndex>21</zIndex>
+        </image>
 
-    </customView>
-
-    <customView name="gamecc-simple">
+        <!-- Video Preview -->
+        <video name="md_video">
+            <origin>0.5 0</origin>
+            <pos>0.4974 0.328</pos>
+            <size>0.195 0.36</size>
+            <zIndex>21</zIndex>
+        </video>
 
         <!-- Arcade Background Vídeo -->
         <video name="md_video_background" extra="true">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./assets/videos/arcade.mp4</path>
+            <path>./_assets/videos/arcade.mp4</path>
             <showSnapshotDelay>false</showSnapshotDelay>
             <delay>0</delay>
             <effect>none</effect>
             <zIndex>4</zIndex>
         </video>
-
-        <!-- Video Game Preview -->
-        <video name="md_video, screenbg">
-            <pos>0.356 0.32</pos>
-            <size>0.284 0.35</size>
-        </video>
-
-        <!-- Nome dos Games -->
-        <text name="md_name">
-            <origin>1 1</origin>
-            <pos>0.999 0.9725</pos>
-            <size>1 0</size>
-            <fontPath>./_inc/fonts/Roboto-Medium.otf</fontPath>
-            <fontSize>0.022</fontSize>
-            <color>FFFFFF</color>
-            <alignment>center</alignment>
-            <forceUppercase>true</forceUppercase>
-            <zIndex>20</zIndex>
-        </text>
 
     </customView>
 

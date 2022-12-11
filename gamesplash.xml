@@ -17,7 +17,7 @@
             <origin>0 0</origin>
             <pos>0.5 0.5</pos>
             <maxSize>0.1 0.1</maxSize>
-            <path>./assets/loading.png</path>
+            <path>./_assets/loading.png</path>
             <zIndex>16</zIndex>
 
             <storyboard repeat="forever">
@@ -28,7 +28,7 @@
         <image name="backgroundalt" extra="true">
             <origin>0 0</origin>
             <size>1 1</size>
-            <path>./assets/arts/gamesplash.png</path>
+            <path>./_assets/arts/gamesplash.png</path>
             <zIndex>5</zIndex>
         </image>
 

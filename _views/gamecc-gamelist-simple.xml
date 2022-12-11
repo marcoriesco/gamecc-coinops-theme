@@ -33,8 +33,8 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./assets/gamecc_simple/default.png</path>
-            <path>./assets/gamecc_simple/$system.png</path>
+            <path>./_assets/gamecc_simple/default.png</path>
+            <path>./_assets/gamecc_simple/$system.png</path>
             <zIndex>7</zIndex>
         </image>
 
@@ -43,14 +43,14 @@
             <origin>0 0</origin>
             <pos>-0.1 0</pos>
             <size>1.3 1</size>
-            <path>./assets/overlay.png</path>
+            <path>./_assets/overlay.png</path>
             <zIndex>16</zIndex>
         </image>
         <image name="overlay_right" extra="true">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./assets/overlay_right.png</path>
+            <path>./_assets/overlay_right.png</path>
             <rotation>180</rotation>
             <zIndex>13</zIndex>
         </image>
@@ -62,7 +62,7 @@
             <origin>0 0</origin>
             <delay>0.4</delay>
             <effect>none</effect>
-            <default>./assets/videos/video_default.mp4</default>
+            <default>./_assets/videos/video_default.mp4</default>
             <snapshotSource>thumbnail</snapshotSource>
             <showSnapshotDelay>true</showSnapshotDelay>
             <zIndex>6</zIndex>
@@ -73,7 +73,7 @@
             <size>0.092 0.122</size>
             <origin>0 0</origin>
             <delay>0.4</delay>
-            <path>./assets/videos/video_default.mp4</path>
+            <path>./_assets/videos/video_default.mp4</path>
             <showSnapshotDelay>false</showSnapshotDelay>
             <effect>none</effect>
             <zIndex>5</zIndex>
@@ -81,7 +81,7 @@
 
         <!-- Informações do sistema - Jogando fora porq n pode apagar -->
         <image name="art" extra="true">
-            <zIndex>5</zIndex>
+            <zIndex>0</zIndex>
             <pos>11 11</pos>
         </image>
 
@@ -96,21 +96,21 @@
             <origin>1 0</origin>
             <pos>0.95 0.902</pos>
             <scale>0.6</scale>
-            <path>./assets/logos/$system.png</path>
-            <zIndex>20</zIndex>
+            <path>./_assets/logos/$system.png</path>
+            <zIndex>99</zIndex>
         </image>
 
         <!-- Favorito -->
         <image name="md_favorite, no_favorite">
-            <path>./assets/favorite.png</path>
+            <path>./_assets/favorite.png</path>
             <origin>0 0</origin>
             <pos>0.95 0.94</pos>
             <maxSize>0.05 0.05</maxSize>
-            <zIndex>21</zIndex>
+            <zIndex>99</zIndex>
         </image>
         <image name="no_favorite" extra="true">
-            <path>./assets/no-favorite.png</path>
-            <zIndex>20</zIndex>
+            <path>./_assets/no-favorite.png</path>
+            <zIndex>98</zIndex>
         </image>
 
         <!-- Cover do Game -->
@@ -122,7 +122,7 @@
             <visible>false</visible>
         </image>
         <image name="cover" extra="true">
-            <path>./assets/cover.jpg</path>
+            <path>./_assets/cover.jpg</path>
         </image>
 
         <!-- Rating Classificação do Game -->
@@ -134,7 +134,7 @@
             <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
             <unfilledColor>FFFFFF</unfilledColor>
             <horizontalAlignment>left</horizontalAlignment>
-            <zIndex>40</zIndex>
+            <zIndex>99</zIndex>
         </rating>
 
         <!-- Barra Fake -->
@@ -142,7 +142,7 @@
             <origin>1 1</origin>
             <pos>0.03 0.75</pos>
             <size>0 0.5</size>
-            <path>./assets/bar.png</path>
+            <path>./_assets/bar.png</path>
             <zIndex>16</zIndex>
         </image>
 

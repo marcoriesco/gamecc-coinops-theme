@@ -14,7 +14,7 @@
             <color>00000000</color>
             <maxLogoCount>3</maxLogoCount>
             <zIndex>45</zIndex>
-            <scrollSound>./assets/sounds/scroll1A.wav</scrollSound>
+            <scrollSound>./_assets/sounds/scroll1A.wav</scrollSound>
             <defaultTransition>instant</defaultTransition>
         </carousel>
 
@@ -29,7 +29,7 @@
         </text>
 
         <image name="logo">
-            <path>./../assets/logos/$system.png</path>
+            <path>./../_assets/logos/$system.png</path>
             <linearSmooth>true</linearSmooth>
 
             <storyboard event="activate" repeatAt="1">
@@ -48,8 +48,8 @@
             <pos>0 0</pos>
             <size>1 1</size>
             <linearSmooth>true</linearSmooth>
-            <path>./../assets/arts/$system.jpg</path>
-            <path>./../assets/arts/$system.png</path>
+            <path>./../_assets/arts/$system.jpg</path>
+            <path>./../_assets/arts/$system.png</path>
         </image>
 
         <!-- Imagem de Overlay -->
@@ -57,7 +57,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../assets/overlay_down.png</path>
+            <path>./../_assets/overlay_down.png</path>
             <zIndex>41</zIndex>
         </image>
 
@@ -75,7 +75,7 @@
         <helpsystem name="help">
             <origin>0.5 0.5</origin>
             <pos>0.5 0.960</pos>
-            <fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+            <fontPath>./../_assets/Roboto-Medium.ttf</fontPath>
             <fontSize>0.020</fontSize>
             <textColor>FFFFFF</textColor>
         </helpsystem>
@@ -88,7 +88,7 @@
             <size>0.07 0.025</size>
             <fontSize>0.025</fontSize>
             <color>FFFFFF</color>
-            <fontPath>./assets/Roboto-Medium.ttf</fontPath>
+            <fontPath>./_assets/Roboto-Medium.ttf</fontPath>
         </datetime>
 
         <!-- Informações do sistema - Jogando fora porq n pode apagar -->

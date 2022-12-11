@@ -35,11 +35,11 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../assets/overlay_down.png</path>
+            <path>./../_assets/overlay_down.png</path>
             <zIndex>15</zIndex>
         </image>
         <image name="overlay2" extra="true">
-            <path>./../assets/overlay_down.png</path>
+            <path>./../_assets/overlay_down.png</path>
         </image>
 
         <!-- Overlay -->
@@ -47,7 +47,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../assets/default.jpg</path>
+            <path>./../_assets/default.jpg</path>
             <zIndex>1</zIndex>
         </image>
 
@@ -58,7 +58,7 @@
             <size>1 1</size>
             <delay>2.5</delay>
             <effect>none</effect>
-            <default>./assets/videos/video_default.mp4</default>
+            <default>./_assets/videos/video_default.mp4</default>
             <snapshotSource>image</snapshotSource>
             <showSnapshotDelay>true</showSnapshotDelay>
             <zIndex>6</zIndex>
@@ -75,7 +75,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <scale>0.7</scale>
-            <path>./assets/logos/$system.png</path>
+            <path>./_assets/logos/$system.png</path>
             <zIndex>20</zIndex>
         </image>
 
@@ -110,13 +110,13 @@
             <origin>1 1</origin>
             <pos>0.99 0.09</pos>
             <pos if="${screen.width} > 1920">0.982 0.09</pos>
-            <path>./assets/favorite.png</path>
+            <path>./_assets/favorite.png</path>
             <size>0.032 </size>
             <size if="${screen.width} > 1920">0.025 </size>
             <zIndex>21</zIndex>
         </image>
         <image name="no_favorite" extra="true">
-            <path>./assets/no-favorite.png</path>
+            <path>./_assets/no-favorite.png</path>
             <zIndex>20</zIndex>
         </image>
 
