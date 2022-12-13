@@ -2,7 +2,7 @@
 <theme>
     <formatVersion>7</formatVersion>
 
-    <customView name="gamecc" tinyScreen="false" displayName="gamecc GAMELIST" inherits="gamecarousel">
+    <view name="gamecarousel" tinyScreen="false" displayName="gamecc COINOPS">
         <gamecarousel name="gamecarousel">
             <type>vertical_wheel</type>
             <pos>0.35 0</pos>
@@ -149,6 +149,6 @@
             <pos>2 0.955</pos>
         </helpsystem>
 
-    </customView>
+    </view>
 
 </theme>

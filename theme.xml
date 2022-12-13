@@ -10,7 +10,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="gamecc">
+<theme defaultView="gamecarousel">
     <formatVersion>7</formatVersion>
 
     <include subset="iconset" name="standard icons" displayName="${icondef}">./_inc/iconsets/default.xml</include>
@@ -22,10 +22,6 @@
     <include subset="iconset" name="PSX ALT">./_inc/iconsets/psx1.xml</include>
     <include subset="iconset" name="Xbox One">./_inc/iconsets/xboxone.xml</include>
     <include subset="iconset" name="Switch">./_inc/iconsets/switch.xml</include>
-
-    <include subset="music" name="Mute" displayName="${silence}">./_views/options/nosounds.xml</include>
-    <include subset="music" name="On" displayName="${sysmusic}">./_views/options/sounds.xml</include>
-    <include subset="music" name="Off" displayName="${nomusic}"/>
 
     <feature supported="carousel">
         <view name="system">
@@ -39,16 +35,8 @@
     </variables>
 
     <include name="system">./_views/gamecc.xml</include>
-
     <include name="menu">./_views/menu.xml</include>
-    <include name="basic">./_views/basic.xml</include>
-    <include name="detailed">./_views/detailed.xml</include>
-    <include name="grid">./_views/grid.xml</include>
-    <include name="gamecarousel">./_views/gamecarousel.xml</include>
-
-    <include name="gamecc">./_views/gamecc-gamelist.xml</include>
-    <include name="gamecc-simple">./_views/gamecc-gamelist-simple.xml</include>
-    <include name="gamecarousel">./_views/gamecc-gamelist-cart.xml</include>
+    <include name="gamecarousel">./_views/gamecc-gamelist.xml</include>
 
     <!-- Specific layout for systems -->
     <include>./${system.theme}/custom.xml</include>
